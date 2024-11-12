@@ -1,0 +1,56 @@
+a{
+    color: #272D38;
+    text-decoration: none;
+}
+h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+        gap: 50px;
+    @media (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+}
+
+.Footer-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+ .DigitalAgency{
+    text-align: center;
+    max-width: 189px;
+}
+
+
+
+.end{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__wrapper{
+    background-color: #f3f0f0;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+   
+  P{
+    margin: 0 auto;
+  }
+}

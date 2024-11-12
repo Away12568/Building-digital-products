@@ -1,0 +1,61 @@
+.Cardrevers{
+    margin-top: 90px;
+}
+
+
+.Cardrevers__wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+    }
+}
+.Cardrevers-img{
+    max-width: 450px;
+    max-height: 450px;
+    img{
+        width: 100%;
+    }
+}
+.Cardrevers-box{
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+    img{
+        width: 100%;
+        max-width: 20px;
+    }
+    h1{
+        font-size: clamp(1.813rem, 1.406rem + 1.63vw, 2.625rem);
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+@media (max-width: 500px) {
+  text-align: center;
+}
+
+}
+
+.none{
+    margin: 0 auto;
+    display: none;
+    @media (max-width: 500px) {
+      display: block;
+    }
+}
+
+.block{
+    
+    display:block ;
+    @media (max-width: 500px) {
+      display:none ;
+    }
+}

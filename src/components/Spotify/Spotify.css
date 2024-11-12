@@ -1,0 +1,32 @@
+.spotify__wrapper{
+    display: flex;
+    flex-direction: column;
+    p{
+        margin: 0 auto;
+    }
+
+    .cards-spotify{
+        display: flex;
+        max-width:clamp(23.75rem, 7.031rem + 66.88vw, 57.188rem);
+        gap: 115px;
+        margin: 0 auto;
+        align-items: center;
+        padding: 15px;
+        border-radius: 8px;
+          background-color: #f8f5f5;
+        img{
+           width: 100%;;
+         
+        }
+    }
+}
+
+.spotify{
+    margin-top: 20px;
+}
+
+.card-spotify{
+    @media (max-width: 600px) {
+      width: 750px;
+    }
+}
